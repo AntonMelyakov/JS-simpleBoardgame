@@ -1,0 +1,95 @@
+body {
+  background-color: orange;
+}
+
+.board{
+width: 640px;
+margin: 20px auto;
+border: 2px solid black;
+}
+
+
+.cell {
+  width: 80px;
+  height: 80px;
+  float: left;
+  background: #dad4f7;
+  box-shadow: 0px 0px 0px 2px black;
+  position: relative;
+
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.marked {
+  background-color: yellow;
+}
+
+.marine {
+  background-image: url("images/marine.png");
+
+}
+
+.sniper {
+  background-image: url("images/sniper.png");
+
+}
+
+.medic {
+  background-image: url("images/medic.png");
+
+}
+
+.president {
+  background-image: url("images/president.png");
+
+}
+
+.inRange {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+#blueMenu {
+  height: 640px;
+  width: 100px;
+  display: inline;
+  float: left;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+#redMenu {
+  height: 640px;
+  width: 100px;
+  display: inline;
+  background-color: red;
+  float: right;
+  margin-top: -560px;
+  border: 2px solid black;
+}
+
+.soldierInMenu {
+
+  width: 90%;
+  margin: 4px; auto;
+
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.final-message {
+  text-align: center;
+  font-size: 40px;
+  padding-left: 175px;
+
+}
