@@ -1,7 +1,4 @@
 (function() {
-
-
-
   let blueMarineOne = new Marine('blue', 'marine', 100, 20, 1, 'i:0j:1');
   let blueMarineTwo =  new Marine('blue', 'marine', 100, 20, 1, 'i:1j:0');
   let blueMarineThree = new Marine('blue', 'marine', 100, 20, 1, 'i:0j:2');
